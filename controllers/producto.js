@@ -43,7 +43,7 @@ const putProducto = async (req, res = response) => {
             descripcionproducto: body.descripcionproducto,
             estado: body.estado
         });
-        mensaje = 'Factura Actualizada';
+        mensaje = 'Producto Actualizada';
     } catch (error) {
         mensaje = 'Error';
     }
