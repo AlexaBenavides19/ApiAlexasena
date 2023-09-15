@@ -12,3 +12,6 @@ route.get('/', getProveedor);
 route.post('/', postProveedor);
 
 module.exports = route;
+
+
+//.

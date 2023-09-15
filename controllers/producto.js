@@ -22,7 +22,7 @@ const postProducto = async (req, res = response) => {
     const producto = new Producto(body); // Cambiar el nombre del modelo si es diferente
     try {
         await producto.save();
-        mensaje = 'Producto registrado';
+        mensaje = 'Productos registrado';
     } catch (error) {
         mensaje = error ;
     }

@@ -43,7 +43,7 @@ const putProveedor = async (req, res = response) => {
             descripcionproveedor: body.descripcionproveedor,
             estado: body.estado
         });
-        mensaje = 'Proveedor Actualizado';
+        mensaje = 'Proveedors Actualizado';
     } catch (error) {
         mensaje = 'Error';
     }

@@ -12,7 +12,7 @@ const ProveedorSchema = Schema({
     },
     correo: {
         type:   String,
-        required: [true, 'El correo es obligatorio']
+        required: [true, 'El correo es obligatoria']
     },
     direccion: {
         type: String,

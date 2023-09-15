@@ -21,7 +21,7 @@ const postFactura = async (req, res = response) => {
     const factura = new Factura(body); // Cambiar el nombre del modelo si es diferente
     try {
         await factura.save();
-        mensaje = 'Factura registrada';
+        mensaje = 'Facturas registrada';
     } catch (error) {
         mensaje = 'Error';
     }
